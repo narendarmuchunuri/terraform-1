@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/Rakeshpagidimarri/terraform-sample7.git '
+                git branch: 'main', url: 'https://github.com/narendarmuchunuri/terraform-1.git '
             }
         }
         stage('Initialize Terraform') {
